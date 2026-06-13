@@ -1,0 +1,12 @@
+Al enviar una petición POST a la ruta http://localhost:3000/registro con el JSON de María, el servidor Express procesa los datos gracias al middleware express.json() y extrae las propiedades desde req.body.
+
+El servidor devuelve una respuesta en formato JSON con un código de estado 200 OK y el siguiente cuerpo:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto confirma que el servidor interceptó los datos entrantes correctamente y los retornó estructurados en la respuesta.
+
