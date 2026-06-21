@@ -1,0 +1,8 @@
+Al introducir en la terminal el comando 'node server.js', el entorno de Node interpreta el archivo y pone en marcha el servicio de Express. En la consola de Termux aparece impreso inmediatamente el mensaje informativo: "Servidor ejecutándose en puerto 3000".
+
+Cuando se realiza una consulta externa a la ruta de '/estado' empleando un navegador web o un cliente HTTP, el servidor procesa de manera exitosa la petición GET y entrega como respuesta una estructura de datos en formato JSON legible. La salida devuelta es exactamente la siguiente:
+
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}

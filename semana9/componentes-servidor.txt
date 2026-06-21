@@ -1,0 +1,14 @@
+Sistema operativo:
+Constituye la base de software intermedia que administra directamente los recursos físicos de la máquina y proporciona el ecosistema básico sobre el cual se ejecutan todos los servicios y procesos internos.
+
+Node.js:
+Se trata del entorno de ejecución en tiempo real que permite interpretar y correr código escrito en JavaScript fuera del navegador, gestionando peticiones de red de forma asíncrona.
+
+Aplicación server.js:
+Representa el script o programa principal programado por el usuario donde se configuran los endpoints, las lógicas de negocio, las respuestas y el comportamiento general del servidor web.
+
+Puerto:
+Es una interfaz o canal lógico específico dentro del sistema que funciona como una puerta de entrada numerada para canalizar el tráfico de red directo hacia una aplicación determinada.
+
+Logs:
+Son archivos de texto históricos que registran de manera automática y cronológica cada evento, error, acceso o anomalía ocurrida durante el tiempo de operación del servidor.
