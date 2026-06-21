@@ -1,0 +1,12 @@
+Ejemplo 1:
+{
+  "tipo": "Seguridad",
+  "descripcion": "Falta de iluminación y cámaras en el parque principal"
+}
+
+Ejemplo 2:
+{
+  "tipo": "Vías",
+  "descripcion": "Bache profundo en la calle principal que afecta el tráfico"
+}
+
