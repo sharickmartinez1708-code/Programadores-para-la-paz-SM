@@ -1,0 +1,4 @@
+El comando 'uname -a' se utiliza para desplegar de forma detallada toda la información del sistema operativo, incluyendo el nombre del kernel, la versión, la arquitectura del procesador y la fecha de compilación. Por otro lado, el comando 'whoami' muestra el nombre del usuario que tiene la sesión activa actualmente en la terminal.
+
+Conocer estos datos es fundamental al administrar un servidor por varias razones de peso. En primer lugar, permite verificar si el sistema cuenta con los parches de seguridad y actualizaciones más recientes para el kernel. Además, ayuda a saber con qué privilegios y restricciones cuenta el usuario actual, evitando errores accidentales de configuración o ejecuciones indebidas de software que requieran permisos de administrador.
+

@@ -1,0 +1,5 @@
+1. Cifrar el almacenamiento de la información sensible para evitar filtraciones de datos personales.
+2. Adoptar el uso de protocolos seguros de transferencia como HTTPS en todo el sitio web.
+3. Establecer un monitoreo constante y auditoría de los inicios de sesión sospechosos.
+4. Concientizar a los líderes del proyecto sobre el manejo seguro de llaves de acceso y contraseñas.
+5. Segmentar los niveles de acceso a la base de datos comunitaria según el rol del colaborador.
