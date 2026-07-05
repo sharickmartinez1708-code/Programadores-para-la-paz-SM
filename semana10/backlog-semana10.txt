@@ -1,0 +1,13 @@
+HISTORIAS DE USUARIO (Ordenadas de mayor a menor prioridad):
+
+1. Alta Prioridad:
+Como ciudadano afectado, quiero registrar un reporte anónimo sobre fallas en el servicio de agua para que la veeduría comunitaria tenga constancia del problema.
+
+2. Alta Prioridad:
+Como coordinador de la veeduría, quiero recibir una notificación automática en Telegram cada vez que se registre una nueva incidencia para poder asignarla rápidamente.
+
+3. Media Prioridad:
+Como miembro del equipo técnico, quiero visualizar una lista con todos los reportes ordenados por fecha para realizar el seguimiento de las revisiones de campo.
+
+4. Baja Prioridad:
+Como ciudadano interesado, quiero consultar un tablero público interactivo con el estado de las incidencias (Pendiente, En Proceso, Resuelto) para estar informado sobre la gestión de la comunidad.

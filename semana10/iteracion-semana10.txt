@@ -1,0 +1,12 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+- Historia 1: Permitir al ciudadano registrar el reporte anónimo.
+- Historia 2: Enviar la notificación automática del reporte al grupo de Telegram.
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque constituyen el núcleo del canal de comunicación. Sin el registro de la incidencia no hay datos que procesar ni rastrear, y sin la alerta inmediata el equipo no se enteraría a tiempo. Estas dos tareas crean el flujo de valor mínimo para que el sistema empiece a funcionar (MVP).
+
+3. ¿Qué significa para ti que una tarea esté "terminada"? (Definición de Terminado - DoD):
+Una tarea se considera completamente terminada si cumple rigurosamente con los siguientes tres criterios:
+- Funcionalidad operativa: El código corre sin errores en el entorno local y cumple el objetivo de la historia de usuario.
+- Pruebas superadas: Se ha verificado manualmente que la integración envía los datos correctos (por ejemplo, el mensaje llega de forma simulada al chat de Telegram).
+- Control de versiones: Los cambios están limpios de credenciales o tokens expuestos y han sido subidos al repositorio remoto en GitHub.

@@ -1,0 +1,14 @@
+FLUJO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+1. ¿Qué evento activa el flujo?
+El flujo se activa mediante un nodo "Webhook" o un trigger de formulario (como Typeform o un formulario interno de Node.js) cuando un ciudadano envía exitosamente un reporte de incidencia comunitaria.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+"Alerta de Veeduría: Se ha registrado una nueva incidencia comunitaria en el sistema. Sector: [Sector ingresado]. Tipo de falla: [Falla]. Por favor, revisar el panel de control para la asignación de tareas."
+
+3. ¿Qué información no debería enviarse por seguridad?
+Por razones estrictas de seguridad y privacidad, bajo ninguna circunstancia se deben enviar:
+- Nombres completos o apellidos de los denunciantes.
+- Números de documento de identidad (Cédula).
+- Direcciones exactas de domicilios particulares, números telefónicos o correos electrónicos personales.
+- Credenciales, tokens, contraseñas de bases de datos o llaves de API.
