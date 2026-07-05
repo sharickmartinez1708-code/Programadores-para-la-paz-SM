@@ -1,0 +1,7 @@
+DISEÑO DE LA INTERFAZ BÁSICA DE LA PLATAFORMA
+
+La interfaz de usuario contará con un diseño limpio y accesible estructurado en las siguientes secciones clave:
+1. Formulario de creación: Un módulo superior con campos de texto sencillos para ingresar el título de la causa, una descripción detallada de la problemática y un selector de fecha de registro.
+2. Vista de causas disponibles: Un tablero principal que desplegará tarjetas individuales por cada causa activa en la base de datos, facilitando una lectura clara de las iniciativas.
+3. Botón de interacción y contador: Cada tarjeta incorporará un botón visible para "Apoyar Causa" acoplado a un contador numérico en tiempo real que reflejará la cantidad total de respaldos acumulados.
+La interfaz priorizará la usabilidad general sin desplegar ningún tipo de información sensible de los usuarios participantes para resguardar su anonimato.

@@ -1,0 +1,18 @@
+MODELO DE DATOS BÁSICO - PLATAFORMA COMUNITARIA
+
+Entidad 1: Causa
+Campos principales:
+- id (Identificador único, número incremental)
+- titulo (Texto corto con el nombre de la problemática o iniciativa)
+- descripcion (Texto largo explicando la necesidad comunitaria)
+- fecha_creacion (Fecha de registro de la propuesta)
+- estado (Texto: "Activa", "En Revisión" o "Resuelta")
+Propósito de la información: Guardar y estructurar las solicitudes o proyectos comunitarios que se publicarán en la plataforma para conocimiento público.
+
+Entidad 2: Apoyo
+Campos principales:
+- id (Identificador único)
+- causa_id (Relación con el id de la Causa apoyada)
+- usuario_anonimo_id (Identificador único temporal del ciudadano para evitar duplicados)
+- fecha_apoyo (Fecha y hora exacta del registro)
+Propósito de la información: Registrar cuantitativamente las manifestaciones de respaldo que recibe cada propuesta, permitiendo medir el impacto comunitario y priorizar la atención de las causas con mayor participación.
