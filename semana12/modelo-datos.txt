@@ -1,0 +1,23 @@
+Modelo de Datos Simplificado - "Petición en 3 Clics"
+
+=========================================
+Entidad: Causa
+=========================================
+Atributos:
+- id (Clave Primaria, Autoincremental / UUID): Identificador único de cada petición creada.
+- titulo (Texto): Nombre o cabecera de la causa (ej. "Reparación del parque comunal").
+- descripcion (Texto largo): Justificación y detalles del problema que se quiere resolver.
+- fecha_creacion (Fecha/Hora): Registro de cuándo se inició la iniciativa.
+
+Propósito de la entidad: Almacena de forma centralizada los motivos, explicaciones y la metadata general de las causas que la comunidad desea apoyar.
+
+=========================================
+Entidad: Apoyo
+=========================================
+Atributos:
+- id (Clave Primaria, Autoincremental): Identificador único de cada firma o respaldo individual.
+- causa_id (Clave Foránea): Relación directa que vincula este apoyo con una 'Causa' específica.
+- nombre_firmante (Texto): Nombre del ciudadano que apoya (cumpliendo con la minimización de datos).
+- fecha_apoyo (Fecha/Hora): Registro exacto de cuándo se sumó la firma.
+
+Propósito de la entidad: Registra de manera independiente cada voto o respaldo que recibe una causa específica, permitiendo contabilizar los apoyos y generar la lista formal de firmantes en el documento final.

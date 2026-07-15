@@ -1,0 +1,10 @@
+Propuesta de Automatización con n8n y Telegram
+
+1. Evento que activa la automatización:
+- Una nueva causa alcanza su meta mínima de apoyos (ej. 50 firmas registradas en la base de datos).
+
+2. Mensaje que se envía:
+- "📢 ¡Meta alcanzada! La causa '[Título de la Causa]' ha recolectado todos los apoyos necesarios. El documento PDF formal ha sido generado y está listo para su descarga y presentación. 🚀"
+
+3. Información que NO debe enviarse por seguridad (Privacidad por Diseño):
+- No se deben enviar nombres de los firmantes, números de identificación, direcciones físicas, correos electrónicos, ni opiniones/comentarios de carácter sensible o personal que puedan comprometer la privacidad de los miembros de la comunidad en canales públicos o semi-públicos de mensajería.

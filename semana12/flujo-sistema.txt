@@ -1,0 +1,7 @@
+Flujo del Sistema: "Petición en 3 Clics"
+
+1. Creación de la Causa: Un líder comunitario o ciudadano accede a la plataforma y registra una nueva causa o petición (ej. "Mejora de alumbrado público").
+2. Almacenamiento en Base de Datos: El sistema procesa la solicitud en el backend y guarda los detalles de la causa en la base de datos de manera segura.
+3. Registro de Apoyos (Firmas): Los miembros de la comunidad ingresan al enlace de la causa, leen la propuesta y registran su apoyo con un solo clic (ingresando únicamente datos mínimos como su nombre).
+4. Generación Automática de Documento: Una vez que se alcanza un objetivo o se solicita el cierre, el sistema recopila los apoyos y genera automáticamente un documento PDF formal y estructurado.
+5. Notificación y Descarga: El sistema notifica a los organizadores (por ejemplo, vía Telegram o n8n) que el documento está listo, permitiendo descargar la petición formalizada para ser presentada ante las entidades pertinentes.
